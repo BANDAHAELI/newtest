@@ -1,0 +1,25 @@
+{
+  "name": "SHABAN-MD-V5",
+  "description": "JavaScript WhatsApp Bot Made By Mr. Shaban",
+  "logo": "https://i.ibb.co/9N1sJ41/Manul-Ofc-X.jpg",
+  "keywords": ["Mr✰Shaban"],
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": "your-session-id-here"
+    },
+    "AUTO_REACT": {
+      "description": "Make it true if you want react on every message.",
+      "required": false,
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
